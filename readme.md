@@ -20,6 +20,24 @@ Paper (https://arxiv.org/abs/1906.04165)
 
 ## Quickstart ##
 
+### Install packages ###
+pip install pandas
+pip install gensim
+pip install scipy
+pip install sklearn
+pip install matplotlib
+
+pip install torch
+pip install matplotlib
+pip install seaborn
+pip install django==2.0
+pip install django-compressor 
+pip install django-debug-toolbar
+
+pip install sumbert
+pip install summarizer-yshi0914==0.0.1
+
+
 Make sure you have [pipenv installed](https://docs.pipenv.org/install.html). Then install Django 2.0 in your virtualenv:
 
     pip install django==2.0
@@ -55,9 +73,4 @@ or you can use the `settings` param with runserver:
 If you need to add some settings that are specific for your machine, rename the file `local_example.py` to `local_settings.py`. This file it's in .gitignore so the changes won't be tracked.
 
 
-### TODO ###
- - Add webpack with live SASS reloading.
- - Add gitlab.ci
- - Improve tox.ini
- - Add deployment options.
- - Add some example code and tests.
+

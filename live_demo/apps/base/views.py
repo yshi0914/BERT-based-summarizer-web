@@ -29,6 +29,6 @@ def process(text_input):
     # It can be optimized by modify sentenct_handler
     result = model(text_input, min_length=60)
     full = ''.join(result)    
-    innerHtmlResult = '<div style="border-style: solid;">'+ summarize(full)
+    innerHtmlResult = '<div style="border-style: solid;">'+ full ##summarize(full)
     innerHtmlResult += '</div>'
     return innerHtmlResult.replace('\n', '<br/>')
