@@ -30,17 +30,17 @@ pip install matplotlib
 pip install torch
 pip install matplotlib
 pip install seaborn
-pip install django==2.0
+pip install django
 pip install django-compressor 
 pip install django-debug-toolbar
 
 pip install sumbert
-pip install summarizer-yshi0914==0.0.1
+pip install summarizer-yshi0914
 
 
 Make sure you have [pipenv installed](https://docs.pipenv.org/install.html). Then install Django 2.0 in your virtualenv:
 
-    pip install django==2.0
+    pip install django
 
 To create a new Django project (make sure to change `project_name`)
 
